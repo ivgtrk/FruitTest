@@ -6,12 +6,12 @@ namespace FruitTest
 {
     internal class DataGridModel : INotifyPropertyChanged
     {
-        private DateTime date { get; set; }
-        private string trader { get; set; }
-        private string good { get; set; }
-        private double weight { get; set; }
-        private double price { get; set; }
-        private double cost { get; set; }
+        private DateTime date;
+        private string trader;
+        private string good;
+        private double weight;
+        private double price;
+        private double cost;
 
 
         public DateTime Date
